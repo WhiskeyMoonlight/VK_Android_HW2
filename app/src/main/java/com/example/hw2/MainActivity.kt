@@ -14,12 +14,4 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    override fun onResume() {
-        super.onResume()
-        val recycler = findViewById<RecyclerView>(R.id.gif_rv)
-        val progress = findViewById<FrameLayout>(R.id.progress_bar)
-
-    }
-
-
 }
